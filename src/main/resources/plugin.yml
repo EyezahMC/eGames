@@ -1,0 +1,12 @@
+name: eGames
+version: '${project.version}'
+main: com.eyezah.mc.egames.eGames
+api-version: 1.18
+authors: [ eyezah ]
+description: eyezah's eGames library
+website: eyezah.com
+commands:
+  games:
+    description: eGames commands
+    usage: /games help
+    permission: egames.use
